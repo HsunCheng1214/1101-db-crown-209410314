@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
   cors({
-    origin: ['https://crown1101.herokuapp.com']
+    origin: '#'
   })
 );
 app.use('/', indexRouter);
